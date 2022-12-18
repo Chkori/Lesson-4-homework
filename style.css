@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+
+header{
+    border-bottom: solid 2px;
+    border-color: rgb(255, 196, 0);
+    margin-top: 0;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 10%;
+}
+nav ul a li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+nav ul a li:hover{
+    cursor: pointer;
+    transition: 1s;
+    color: rgb(255, 196, 0);
+}
+#logo{
+    width: 200px;
+    height: 200px;
+    padding-left: 30px;
+}
+#header-name{
+    color: white;
+    font-size: 40px;
+}
+section{
+    margin-top: 20px;
+    background-color: rgb(94, 93, 93);
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-color: rgb(255, 196, 0);
+    width: 100%;
+    height: 700px;
+}
+.bigbox{
+    padding-top: 50px;
+}
+.titledbox{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+.titledbox a h3{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 196, 0);
+}
+.moviebox{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 500px;
+    margin-top: 60px;
+    border-top: solid 2px;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    border-left: solid 2px;
+    border-color: white;
+}
+.moviebox:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    transition-delay: .1s;
+    border-color: rgb(255, 196, 0);
+}
+.movieimg{
+    width: 300px;
+    height: 500px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.socicon{
+    width: 25px;
+    height: 25px;
+}
+.socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
